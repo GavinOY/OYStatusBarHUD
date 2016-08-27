@@ -13,10 +13,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "A  OYStatusBarHUD view used on iOS"
 
-  s.description  = <<-DESC
-                   DESC
-
-  s.homepage     = "http://EXAMPLE/OYStatusBarHUD"
+  s.homepage     = "https://github.com/GavinOY/OYStatusBarHUD"
   s.license      = "MIT"
 
   s.author             = { "gavin" => "zhx-oy@hotmail.com" }

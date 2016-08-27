@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.author             = { "gavin" => "zhx-oy@hotmail.com" }
   s.platform     = :ios, "5.0"
   s.source       = { :git => "https://github.com/GavinOY/OYStatusBarHUD.git", :tag => "0.0.1" }
-  s.source_files  = "OYStatusBarHUD/*"
+  s.source_files  = "OYStatusBarHUD"
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }

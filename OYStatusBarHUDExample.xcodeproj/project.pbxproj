@@ -15,8 +15,8 @@
 		9B6728471D71351600F7EC3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6728451D71351600F7EC3E /* LaunchScreen.storyboard */; };
 		9B6728521D71351600F7EC3E /* OYStatusBarHUDExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6728511D71351600F7EC3E /* OYStatusBarHUDExampleTests.m */; };
 		9B67285D1D71351600F7EC3E /* OYStatusBarHUDExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B67285C1D71351600F7EC3E /* OYStatusBarHUDExampleUITests.m */; };
-		9B6728701D7135FC00F7EC3E /* OYStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B67286F1D7135FC00F7EC3E /* OYStatusBarHUD.m */; };
-		9B6728721D713B7100F7EC3E /* OYStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B6728711D713B7100F7EC3E /* OYStatusBarHUD.bundle */; };
+		9B6728771D71505000F7EC3E /* OYStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B6728741D71505000F7EC3E /* OYStatusBarHUD.bundle */; };
+		9B6728781D71505000F7EC3E /* OYStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6728761D71505000F7EC3E /* OYStatusBarHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +53,9 @@
 		9B6728581D71351600F7EC3E /* OYStatusBarHUDExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OYStatusBarHUDExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B67285C1D71351600F7EC3E /* OYStatusBarHUDExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OYStatusBarHUDExampleUITests.m; sourceTree = "<group>"; };
 		9B67285E1D71351600F7EC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B67286E1D7135FC00F7EC3E /* OYStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OYStatusBarHUD.h; sourceTree = "<group>"; };
-		9B67286F1D7135FC00F7EC3E /* OYStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OYStatusBarHUD.m; sourceTree = "<group>"; };
-		9B6728711D713B7100F7EC3E /* OYStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OYStatusBarHUD.bundle; sourceTree = "<group>"; };
+		9B6728741D71505000F7EC3E /* OYStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OYStatusBarHUD.bundle; sourceTree = "<group>"; };
+		9B6728751D71505000F7EC3E /* OYStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OYStatusBarHUD.h; sourceTree = "<group>"; };
+		9B6728761D71505000F7EC3E /* OYStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OYStatusBarHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 		9B6728361D71351600F7EC3E /* OYStatusBarHUDExample */ = {
 			isa = PBXGroup;
 			children = (
-				9B67286B1D7135CE00F7EC3E /* OYStatusBarHUD */,
+				9B6728731D71505000F7EC3E /* OYStatusBarHUD */,
 				9B67283A1D71351600F7EC3E /* AppDelegate.h */,
 				9B67283B1D71351600F7EC3E /* AppDelegate.m */,
 				9B67283D1D71351600F7EC3E /* ViewController.h */,
@@ -146,15 +146,15 @@
 			path = OYStatusBarHUDExampleUITests;
 			sourceTree = "<group>";
 		};
-		9B67286B1D7135CE00F7EC3E /* OYStatusBarHUD */ = {
+		9B6728731D71505000F7EC3E /* OYStatusBarHUD */ = {
 			isa = PBXGroup;
 			children = (
-				9B6728711D713B7100F7EC3E /* OYStatusBarHUD.bundle */,
-				9B67286E1D7135FC00F7EC3E /* OYStatusBarHUD.h */,
-				9B67286F1D7135FC00F7EC3E /* OYStatusBarHUD.m */,
+				9B6728741D71505000F7EC3E /* OYStatusBarHUD.bundle */,
+				9B6728751D71505000F7EC3E /* OYStatusBarHUD.h */,
+				9B6728761D71505000F7EC3E /* OYStatusBarHUD.m */,
 			);
 			path = OYStatusBarHUD;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -265,7 +265,7 @@
 				9B6728471D71351600F7EC3E /* LaunchScreen.storyboard in Resources */,
 				9B6728441D71351600F7EC3E /* Assets.xcassets in Resources */,
 				9B6728421D71351600F7EC3E /* Main.storyboard in Resources */,
-				9B6728721D713B7100F7EC3E /* OYStatusBarHUD.bundle in Resources */,
+				9B6728771D71505000F7EC3E /* OYStatusBarHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B67283F1D71351600F7EC3E /* ViewController.m in Sources */,
-				9B6728701D7135FC00F7EC3E /* OYStatusBarHUD.m in Sources */,
+				9B6728781D71505000F7EC3E /* OYStatusBarHUD.m in Sources */,
 				9B67283C1D71351600F7EC3E /* AppDelegate.m in Sources */,
 				9B6728391D71351600F7EC3E /* main.m in Sources */,
 			);
@@ -519,6 +519,7 @@
 				9B6728631D71351600F7EC3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B6728641D71351600F7EC3E /* Build configuration list for PBXNativeTarget "OYStatusBarHUDExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +528,7 @@
 				9B6728661D71351600F7EC3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B6728671D71351600F7EC3E /* Build configuration list for PBXNativeTarget "OYStatusBarHUDExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +537,7 @@
 				9B6728691D71351600F7EC3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
